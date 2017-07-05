@@ -103,14 +103,21 @@ namespace ArraysPractice
             ////the index position of the LAST matching value found.
             //Console.WriteLine(Array.LastIndexOf(bestYearsEver, 1985));
 
-            //Reverse Method
-            int[] palindromeNumbers = { 1, 2, 3, 4, 5, 6, 7 };
-            Console.WriteLine(palindromeNumbers[0]);
-            Console.WriteLine(palindromeNumbers[2]);
-            Array.Reverse(palindromeNumbers);
-            Console.WriteLine(palindromeNumbers[0]);
-            Console.WriteLine(palindromeNumbers[2]);
+            ////Reverse Method
+            //int[] palindromeNumbers = { 1, 2, 3, 4, 5, 6, 7 };
+            //Console.WriteLine(palindromeNumbers[0]);
+            //Console.WriteLine(palindromeNumbers[2]);
+            //Array.Reverse(palindromeNumbers);
+            //Console.WriteLine(palindromeNumbers[0]);
+            //Console.WriteLine(palindromeNumbers[2]);
 
+            //Sort
+            //Will sort numbers in an array from lowest to highest
+            //Will sort char's and strings in alphabetical order from A-Z
+            string[] powerRangers = { "Green", "Yellow", "Pink", "Blue", "Red", "Black"};
+            Console.WriteLine(powerRangers[0]);
+            Array.Sort(powerRangers);
+            Console.WriteLine(powerRangers[0]);
 
 
 
